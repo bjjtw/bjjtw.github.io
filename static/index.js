@@ -17,7 +17,7 @@ if (params != null) {
     var i = 0
     for (; i < arr.length; i++) {
         kv = arr[i].split('=');
-        vue.$set(kv[0], kv[1]);
+        vue.$set(kv[0], decodeURI(kv[1]));
     }
 }
 
