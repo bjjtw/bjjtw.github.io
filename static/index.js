@@ -7,6 +7,7 @@ var vue = new Vue({
         end: '',
         com: '',
         com_shot: '',
+        avatar: ''
     }
 });
 
